@@ -1,0 +1,37 @@
+Week -1 [31st Jan to 07th Feb 2023 ]
+------------------------------------------------
+1.	React Introduction with Hello World program
+2.	Folder Structure
+3.	Components and its types.
+4.	JSX and Hooks update
+5.	JSX
+6.	Props and State
+7.	setState, Destructing props and State , Lifting State up
+8.	Event Handling.
+9.	Binding Event Handlers
+10.	Methods as props
+11.	Conditional Rendering
+12.	Styling and CSS Basics
+13.	Basics of Form Handling
+14.	Component LifeCycle Methods , Mounting and Updating LifeCycle.
+15.	Fragments & Pure Components
+16.	Memo ,Refs and forwarding refs 
+
+Week -1 [09th Feb to 16th Feb 2023 ]
+------------------------------------------------
+17.	Portals
+18.	Error Boundaries
+19.	High Order Components
+20.	Render Props
+21.	Context
+22.	HTTP and React
+23.	Hooks Introduction
+24.	UseState, useState with previous state, array, object
+25.	UseEffect Hook, after render, conditionally run effects 
+26.	Fetching Data with useEffect
+27.	useContext & useReducer
+28.	Fetching data with useReducer , useState Vs useReducer
+29.	useCallback, useMemo, useRef 
+30.	Custom hooks
+31.	React Render
+32.	Introduction to React-Redux 
