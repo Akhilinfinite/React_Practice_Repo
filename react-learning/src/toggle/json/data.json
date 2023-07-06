@@ -1,0 +1,45 @@
+[
+
+    {
+        "id":1,
+        "name":"Akhil",
+        "city":"Kurnool",
+        "project":"Turbify"
+    },
+    {
+        "id":2,
+        "name":"Kishore",
+        "city":"Drakshrama",
+        "project":"conduent"
+    },
+    
+    {
+        "id":3,
+        "name":"Laxman",
+        "city":"Srikakulam",
+        "project":"Turbify"
+    },
+    
+    {
+        "id":4,
+        "name":"Priya",
+        "city":"Birla",
+        "project":"Turbify"
+    },{
+        "id":5,
+        "name":"Bindu",
+        "city":"Simhachalam",
+        "project":"Turbify"
+    },
+    {
+        "id":6,
+        "name":"MUKESH",
+        "city":"PONNUR",
+        "project":"CHAT BOT"
+    }
+    
+    
+    
+    
+]
+

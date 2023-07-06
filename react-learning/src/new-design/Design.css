@@ -1,0 +1,29 @@
+#example1 {
+  border: 4px solid rgb(89, 192, 226);
+  border-top-left-radius: 212px;
+  margin: 200px;
+  width: 920px;
+}
+.MainSection {
+  margin: 0px 60px;
+  padding: 5px 75px 5px 120px;
+  text-align: center;
+  align-content: center;
+}
+.Body {
+  display: flex;
+}
+.image-text {
+  display: flex;
+  -ms-flex: 1;
+  height: 440px;
+  margin: 15px 30px;
+  flex: 1;
+}
+.right {
+  width: 280px;
+  align-items: flex-start;
+}
+.left {
+  width: 280px;
+}

@@ -1,0 +1,46 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+thead, th{
+  background-color: #484f4f;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+.FirstTable {
+  border: 2px solid rgb(250, 247, 247);
+}
+
+.FirstTable:nth-child(even) {
+    background-color: #82b74b;
+    color: #FFFFFF;
+}
+.FirstTable:nth-child(odd) {
+  background-color: #292F33;
+  color: #FFFFFF;
+}
+.FirstTable:hover {
+  background-color: #c83349;
+  color: #FFFFFF;
+}
+
+.SecondTable {
+  border: 2px solid rgb(250, 247, 247);
+}
+
+.SecondTable:nth-child(even) {
+    background-color: #e06377;
+    color: #FFFFFF;
+}
+.SecondTable:nth-child(odd) {
+  background-color: #292F33;
+  color: #FFFFFF;
+}
+.SecondTable:hover {
+  background-color: #c83349;
+  color: #FFFFFF;
+}

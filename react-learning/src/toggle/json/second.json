@@ -1,0 +1,46 @@
+[
+    
+    
+    {
+        "id":1,
+        "name":"Janhavi",
+        "city":"Vijayawada",
+        "project":"GE-Helthcare"
+    },
+
+    {
+        "id":2,
+        "name":"Joy Komali",
+        "city":"Hanumanthavaka",
+        "project":"GE-Helthcare"
+    },
+    
+    {
+        "id":3,
+        "name":"Shiva",
+        "city":"Hanumanthavaka",
+        "project":"GE-Helthcare"
+    },
+    
+    {
+        "id":4,
+        "name":"Hema",
+        "city":"Hanumanthavaka",
+        "project":"GE-Helthcare"
+    },
+    
+    {
+        "id":5,
+        "name":"Pankaj",
+        "city":"Nagpur",
+        "project":"GE-Helthcare"
+    },
+    {
+        "id":6,
+        "name":"Satya",
+        "city":"Gajuwaka",
+        "project":"Turbify"
+    }
+    
+    
+]

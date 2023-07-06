@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "name": "akhil",
+        "address": "H-no: 2-51/b , Kodumur, kurnool",
+        "Email":"kouncheakhil@gmail.com",
+        "number":9640240501
+    },
+    {
+        "id":2,
+        "name": "Laxman",
+        "address": "H-no: 53 ,Srikakulam",
+        "Email":"LaxmanRao@gmail.com",
+        "number":919493563961
+    },
+    {
+        "id":3,
+        "name": "Priyaka",
+        "address": "H-no:87 , muralinagar , vizag",
+        "Email":"priyanka.kotana@infinite.com",
+        "number":9121851054
+    }
+    
+]

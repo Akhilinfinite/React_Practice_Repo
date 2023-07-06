@@ -1,0 +1,53 @@
+#example {
+  border-top-right-radius: 212px;
+  margin: 200px;
+  width: 1000px;
+  height: 750px;
+  background-color: antiquewhite;
+}
+.MainSection{
+  height: 100px;
+  align-items: center;
+  width: 45%;
+  text-align: center;
+  padding: 5px 250px;
+}
+.image-text {
+  display: flex;
+  -ms-flex: 3;
+  height: 430px;
+  width: 90%;
+  margin: 30px 30px;
+  padding: 5px;
+  flex: 3;
+}
+.imageT{
+  padding: 5px;
+}
+.image-container{
+  border-radius: 10px;
+  height: 250px;
+  padding: 4%;
+  margin: 4%;
+  background-color: aqua;
+}
+
+.right1{
+  height: 100%;
+  width: 30%;
+  margin: 3px;
+  padding: 10px 10px;
+}
+
+.right2{
+  height: 100%;
+  width: 30%;
+  margin: 3px;
+  padding: 10px 10px;
+}
+.right3{
+  height: 100%;
+  width: 30%;
+  margin: 3px;
+  padding: 10px 10px;
+}
