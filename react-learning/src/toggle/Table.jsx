@@ -33,7 +33,9 @@ export default function Table() {
     // } else {
     //   setIsChecked((checked) => !checked);
     // }
-    checked ? setIsChecked((checked) => !checked) : setIsChecked((checked) => !checked);
+    checked
+      ? setIsChecked((checked) => !checked)
+      : setIsChecked((checked) => !checked);
   };
 
   return (
@@ -55,9 +57,9 @@ export default function Table() {
           {!checked && <tbody>{DisplayData1}</tbody>}
         </table>
       </div>
-
+      
       <div>
-        <ColorToggleButton/>
+        <ColorToggleButton />
       </div>
     </>
   );
