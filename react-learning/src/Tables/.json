@@ -1,0 +1,51 @@
+ [{
+      headerName: "ID",
+      field: "id",
+      sortable: true,
+      filter: true,
+      editable: false,
+      pinned: "left",
+    },
+    {
+      headerName: "Name",
+      field: "name",
+      sortable: true,
+      filter: true,
+      editable: true,
+    },
+    {
+      headerName: "Age",
+      field: "age",
+      sortable: true,
+      filter: true,
+    },
+    {
+      headerName: "Country",
+      field: "country",
+      sortable: true,
+      filter: true,
+    },
+    {
+      headerName: "City",
+      field: "city",
+      sortable: true,
+      filter: true,
+    },
+    {
+      headerName: "Additional1",
+      field: "additional1",
+      sortable: true,
+      filter: true,
+    },
+    {
+      headerName: "Additional2",
+      field: "additional2",
+      sortable: true,
+      filter: true,
+    },
+    {
+      headerName: "Additional3",
+      field: "additional3",
+      sortable: true,
+      filter: true,
+    }]

@@ -1,0 +1,215 @@
+:root {
+  //COLOR
+  --primaryColor: #ff8811;
+  --primaryColorLight: #539ed0;
+  --bodyTextColor: #0d0d0d;
+  counter-reset: li;
+
+  //body max width
+  --maxWidth: 1264px;
+  --bodyGap: 4em;
+  --smallBodyGap: 2em;
+
+  //container WIDTH
+  --containerSmWidth: 540px;
+  --containerMdWidth: 720px;
+  --containerLgWidth: 960x;
+  --containerXlWidth: 1170px;
+  --containerXxlWidth: 1320px;
+
+  //FONT SIZE
+  --baseSmallSize: 11px;
+  --baseMideumSize: 12px;
+  --baseLargeSize: 14px;
+  --baseExtraLargeSize: 15px;
+  --headingFontSize: 2.3em;
+
+  //HEADER NAV
+  --headerBorder: #969696;
+
+  //FORM
+  --inputFormBorderColor: #969696;
+  --inputFormLabelColor: #969696;
+  --buttonBGColor: #ff8811;
+  --buttonColor: #fff;
+
+  //TABLE
+  --tableBorderColor: #e0e0e0;
+
+  //FOOTER
+  --footerVolBgColor: #9dd9d2;
+  --footerBgColor: #392f5a;
+  --footerColor: #fff;
+  --footerVoltColor: #2b3e52;
+
+  //STEP PROGRESS
+  --completeColor: #ff8811;
+  --progressColor: #ff8811;
+  --labelColor: #0a2540;
+  --borderColor: #d9dbe3;
+  --placeHolderColor: #7f7f7f;
+  --FormWarrining: #a30000;
+
+  //COLORS
+  --whiteColor: #ffffff;
+  --greenColor: #00a336;
+  --warriningColor: #ff1111;
+  --transperentBG: #00000080;
+}
+
+.header-main {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0px 6px 11px 0px #40444d0f;
+  -webkit-box-shadow: 0px 6px 11px 0px #40444d0f;
+  .navbar {
+    padding: 0px !important;
+  }
+
+  .logo-text {
+    font-weight: 600;
+    font-size: 1.8em;
+    cursor: pointer;
+  }
+
+  .border {
+    height: 20px;
+
+    @media only screen and (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  .nav-link {
+    color: var(--bodyTextColor);
+    font-weight: 500;
+    font-size: 0.95em;
+    svg {
+      width: 1.8em;
+    }
+    &:hover {
+      color: var(--primaryColor);
+      svg {
+        path {
+          stroke: var(--primaryColor);
+        }
+      }
+    }
+  }
+
+  .me-auto {
+    justify-content: end;
+    gap: 1em;
+    width: 100%;
+    align-items: center;
+    .sub-links {
+      position: fixed;
+      top: 5.875em;
+      left: 13.5625em;
+      background-color: white;
+      z-index: 1000;
+      padding: 10px;
+      width: 496px;
+      font-weight: 500;
+      font-size: 0.95em;
+      box-shadow: 0px 4px 14.4px 0px rgba(0, 0, 0, 0.33);
+
+      .sub-menu {
+        display: flex;
+        flex-direction: row;
+        .feature {
+          width: 215px;
+          margin-left: 20px;
+          .NavLinks {
+            position: relative;
+
+            .sub-links {
+              position: absolute;
+              background-color: white;
+              z-index: 1000;
+              padding: 10px 1px;
+              width: 496px;
+              margin-top: 34%;
+              border-radius: 5px;
+              margin-left: -187%;
+              font-weight: 500;
+              font-size: 0.95em;
+              box-shadow: 0px 4px 14.4px 0px rgba(0, 0, 0, 0.33);
+              .polygon {
+                position: absolute;
+                z-index: 999;
+                transform: translate(-50%, -50%);
+                margin-top: -2.5%;
+                margin-left: 48%;
+              }
+              .polygon:hover {
+                border-color: white;
+              }
+              .sub-menu {
+                display: flex;
+                flex-direction: row;
+                .feature {
+                  width: 215px;
+                  margin-right: 20px;
+                  display: flex;
+                  flex-direction: row;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    .Offcanvas {
+      width: 256px;
+      position: fixed;
+      overflow-y: auto;
+      height: 100vh;
+      top: 0;
+      left: 0;
+      background-color: white;
+      z-index: 1000;
+
+      .me-auto {
+        margin: 2.5em 1.5em 3.7em 1.5em;
+        align-items: initial;
+        gap: 0em;
+        .botton {
+          position: fixed;
+          z-index: 1000;
+          background-color: white;
+          bottom: 0;
+          left: 0;
+          width: 256px;
+          padding: 15px;
+        }
+        .sub-links {
+          top: 0;
+          left: 0;
+          width: 32.9375em;
+          margin: 0em 2.5em;
+          position: relative;
+          flex-direction: column;
+          box-shadow: none;
+          font-weight: 500;
+          font-size: 0.95em;
+
+          .sub-menu {
+            display: flex;
+            flex-direction: column;
+            .feature {
+              width: 180px;
+              height: 40px;
+              margin: 5px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

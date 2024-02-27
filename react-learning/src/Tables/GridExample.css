@@ -1,0 +1,9 @@
+/* .ag-root-wrapper { */
+  /* height: 80% !important; */
+  /* max-height: calc(100% - 200px) !important; */
+  /* min-height: 400px !important; */
+/* } */
+.ag-paging-page-summary-panel {
+  display: flex;
+  float: left;
+}
