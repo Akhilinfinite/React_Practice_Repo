@@ -39,7 +39,7 @@ const Header = () => {
               </Navbar.Brand>
             </div>
             <Navbar.Offcanvas id="basic-navbar-nav">
-              <Offcanvas.Body className="me-auto">
+              <Offcanvas.Body className="me-auto" >
                 <Nav.Link onClick={handleFeaturesClick}>
                   <Features className="d-lg-none px-1 " />
                   Features
@@ -49,7 +49,7 @@ const Header = () => {
                     <DropDownIcon className="px-1" />
                   )}
                   {showSubLinks && (
-                    <div className="sub-links active">
+                    <div className="sub-links">
                       <div className="polygon">
                         <Polygon className="px-1" />
                       </div>

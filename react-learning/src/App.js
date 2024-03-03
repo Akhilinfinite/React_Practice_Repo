@@ -13,7 +13,7 @@
 // import GridExample from "./Tables/GridExample";
 // import LazyLoadingGrid from "./Tables/LazyLoadingGrid";
 import Header from "./Tables/Header";
-import OffcanvasExample from "./Tables/OffcanvasExample";
+// import OffcanvasExample from "./Tables/OffcanvasExample";
 // import GridExample1 from "./Tables/GridExample1";
 // import TableExample from "./Tables/TableExample";
 // import TopNav from "./Regitration form/TopNav";
@@ -21,13 +21,13 @@ import OffcanvasExample from "./Tables/OffcanvasExample";
 function App() {
   return (
     <div className="App">
-      <h4>React test component</h4>
+      {/* <h4>React test component</h4> */}
       {/* <TopNav/>
        */}
       {/* <GridExample /> */}
       {/* <LazyLoadingGrid /> */}
       <Header />
-      <OffcanvasExample />
+      {/* <OffcanvasExample /> */}
       {/* <TableExample/> */}
       {/* <MainC/> */}
       {/* <SearchableDropdown /> */}
