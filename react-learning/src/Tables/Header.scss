@@ -138,54 +138,6 @@
       }
     }
   }
-
-  // @media (max-width: 992px) {
-  //   .offcanvas {
-  //     //position: relative;
-  //     width: 256px !important;
-  //     &.show {
-  //       .offcanvas-start {
-  //         width: 256px !important;
-  //       }
-  //     }
-  //   }
-  //   .me-auto {
-  //     width: 256px;
-  //     margin: 2.5em 1.5em 3.7em 1.5em;
-  //     align-items: initial;
-  //     gap: 0em;
-  //     .botton {
-  //       position: fixed;
-  //       z-index: 1000;
-  //       background-color: white;
-  //       bottom: 0;
-  //       left: 0;
-  //       width: 256px;
-  //       padding: 15px;
-  //     }
-  //     .sub-links {
-  //       top: 0;
-  //       left: 0;
-  //       width: 32.9375em;
-  //       margin: 0em 2.5em;
-  //       position: relative;
-  //       flex-direction: column;
-  //       box-shadow: none;
-  //       font-weight: 500;
-  //       font-size: 0.95em;
-
-  //       .sub-menu {
-  //         display: flex;
-  //         flex-direction: column;
-  //         .feature {
-  //           width: 180px;
-  //           height: 40px;
-  //           margin: 5px 0px;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 }
 @media (max-width: 992px) {
   .offcanvas {
@@ -201,13 +153,15 @@
         background-color: white;
         bottom: 0;
         left: 0;
-        width: 256px;
-        padding: 15px;
+        width: 254px;
+        // padding: 15px;
+        margin: 0 0 15px 0;
+        padding: 0em 2.8em;
       }
       .sub-links {
         top: 0;
         left: 0;
-        width: 32.9375em;
+        // width: 32.9375em;
         margin: 0em 2.5em;
         position: relative;
         flex-direction: column;

@@ -40,7 +40,7 @@ const Header = () => {
             </div>
             <Navbar.Offcanvas id="basic-navbar-nav">
               <Offcanvas.Body className="me-auto" >
-                <Nav.Link onClick={handleFeaturesClick}>
+                <div onClick={handleFeaturesClick}>
                   <Features className="d-lg-none px-1 " />
                   Features
                   {showSubLinks ? (
@@ -109,7 +109,7 @@ const Header = () => {
                       </Nav>
                     </div>
                   )}
-                </Nav.Link>
+                </div>
                 <Nav.Link>
                   <Dollar className="d-lg-none px-1" />
                   Funding Information
